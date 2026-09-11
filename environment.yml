@@ -1,0 +1,22 @@
+name: trustfusion
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.4
+  - torchvision=0.19
+  - lightgbm>=4.3
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas>=2.0
+  - pyyaml
+  - networkx
+  - pillow
+  - pyarrow
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - -e .

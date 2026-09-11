@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data are never committed (see docs/RELEASE.md for licensing). Anchored to the repository root: an unanchored
+# `data/` would also ignore the package module trustfusion/data/ and the figure data in paper_figures/data/.
+/data/
+/raw/
+
+# Generated outputs: the folders ship empty (.gitkeep)
+runs/*
+!runs/.gitkeep
+results/*
+!results/.gitkeep
+
+# Split index files are large and released as GitHub-release / Zenodo assets; summary.json is kept
+splits/*.csv
+splits/*_classes.json
+!splits/.gitkeep
+
+# Checkpoints and rendered figures
+*.pt
+*.ckpt
+paper_figures/out/

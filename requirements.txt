@@ -1,0 +1,19 @@
+# Core (CPU or CUDA builds of torch/torchvision both work; the manuscript setting is PyTorch 2.4)
+torch>=2.4,<2.5
+torchvision>=0.19,<0.20
+lightgbm>=4.3
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+pyyaml>=6.0
+networkx>=3.0
+pillow>=9.0
+pyarrow>=14          # parquet prediction files (falls back to csv.gz without it)
+matplotlib>=3.7      # paper_figures/make_figures.py
+pytest>=7.4
+# Optional, not installed by default:
+#   timm        ImageNet-21k ViT-S/16 weights for the multi-scale ViT baseline
+#   lief, ember EMBER v2 re-extraction (BODMAS benign pool, coupled faithfulness protocol)
+#   thrember    EMBER2024 feature extraction  (pip install git+https://github.com/FutureComputing4AI/EMBER2024)
+#   androguard  DEX method offsets for the MalNet coupled faithfulness protocol
