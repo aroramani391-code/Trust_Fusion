@@ -1,31 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the TrustFusion article (and this software)."
-title: "TrustFusion: reproducibility code"
-type: software
-version: 1.0.0
-license: MIT
-repository-code: "https://github.com/mani-arora/TrustFusion"
-doi: "10.5281/zenodo.17106842"   # release DOI quoted in the response to reviewers; confirm it resolves (docs/RELEASE.md)
+title: "TrustFusion — Reproducibility Archive (v1.0-r3)"
+message: "ILLUSTRATIVE TEMPLATE — set the real date/DOI before publishing."
 authors:
-  - family-names: "Arora"
-    given-names: "Mani"
-    affiliation: "Department of Computer Science and Engineering, Inder Kumar Gujral Punjab Technical University, Jalandhar, India"
-  - family-names: "Gupta"
-    given-names: "Anuj Kumar"
-    affiliation: "Department of Computer Science and Engineering, College of Engineering, Chandigarh Group of Colleges, Landran, Mohali, India"
-keywords:
-  - malware detection
-  - multimodal deep learning
-  - conformal prediction
-  - uncertainty calibration
-  - explainability
-preferred-citation:
-  type: article
-  title: "TrustFusion: An Explainable, Uncertainty-Calibrated Efficient Multimodal Deep Learning Framework for Malware Detection and Classification"
-  authors:
-    - family-names: "Arora"
-      given-names: "Mani"
-    - family-names: "Gupta"
-      given-names: "Anuj Kumar"
-  journal: "International Journal of Intelligent Engineering and Systems"
-  status: submitted
+  - family-names: Arora
+    given-names: Mani
+  - family-names: Gupta
+    given-names: Anuj Kumar
+version: "1.0-r3"
+date-released: "2026-10-02"              # set to your real deposit date
+doi: "10.5281/zenodo.XXXXXXXX"           # replace after Zenodo publish
+repository-code: "https://github.com/aroramani391-code/Trust_Fusion"
